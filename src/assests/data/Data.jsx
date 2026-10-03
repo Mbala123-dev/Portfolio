@@ -69,7 +69,7 @@ const Data = [
         image: SecureSync,
         tech: "Html, CSS, JS",
         category: "webDesign",
-        URl: "#"
+        URl: "https://mbala123-dev.github.io/Secure/"
     },
     
     {
