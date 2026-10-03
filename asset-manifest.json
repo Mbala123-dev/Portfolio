@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.0642b810.css",
+    "main.js": "/Portfolio/static/js/main.28738215.js",
+    "static/media/remixicon.svg?t=1590207869815": "/Portfolio/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/sync.PNG": "/Portfolio/static/media/sync.07df28d52e014f8c537a.PNG",
+    "static/media/img-2.png": "/Portfolio/static/media/img-2.c1fdfd53228c5c87d445.png",
+    "static/media/remixicon.eot?t=1590207869815": "/Portfolio/static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "/Portfolio/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/img-4.png": "/Portfolio/static/media/img-4.e9a18d635b54b963c092.png",
+    "static/media/img-1.png": "/Portfolio/static/media/img-1.c2b6c412e69ecd3d1514.png",
+    "static/media/Hr.png": "/Portfolio/static/media/Hr.923f03d1e4f26925289c.png",
+    "static/media/remixicon.woff?t=1590207869815": "/Portfolio/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/remixicon.woff2?t=1590207869815": "/Portfolio/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "static/media/TimeTable.PNG": "/Portfolio/static/media/TimeTable.b61208f84ad315879e15.PNG",
+    "static/media/img-3.jpg": "/Portfolio/static/media/img-3.930a11c80a7f285d1c29.jpg",
+    "static/media/frontend.png": "/Portfolio/static/media/frontend.f3fa8ba8d3c413b7f068.png",
+    "static/media/cal.PNG": "/Portfolio/static/media/cal.fae6d3e08f67362100a6.PNG",
+    "static/media/clock.PNG": "/Portfolio/static/media/clock.f91fbfeef0090577a802.PNG",
+    "static/media/board.PNG": "/Portfolio/static/media/board.0233f7e02206e726b27e.PNG",
+    "index.html": "/Portfolio/index.html",
+    "main.0642b810.css.map": "/Portfolio/static/css/main.0642b810.css.map",
+    "main.28738215.js.map": "/Portfolio/static/js/main.28738215.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0642b810.css",
+    "static/js/main.28738215.js"
+  ]
+}
