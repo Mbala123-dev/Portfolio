@@ -3,6 +3,8 @@ import Data from '../../assests/data/Data'
 
 const Modal = ({activeID, setShowModal}) => {
     const portfolio = Data.find(portfolio => portfolio.id === activeID)
+  const liveUrl = portfolio?.URL
+  const hasLiveUrl = typeof liveUrl === 'string' && /^https?:\/\//i.test(liveUrl)
     
     // Close modal on Escape key press
     useEffect(() => {
@@ -81,17 +83,21 @@ const Modal = ({activeID, setShowModal}) => {
                  
                  {/* Action Button */}
                  <div className='mt-auto pt-4'>
-                   <a 
-                     href={portfolio.URL}
-                     target='_blank'
-                     rel='noopener noreferrer'
-                     className='inline-block w-full sm:w-auto'
-                   >
-                     <button className='w-full sm:w-auto bg-primaryColor hover:bg-headingColor dark:bg-blue-600 dark:hover:bg-blue-700 text-white py-3 px-6 rounded-lg font-medium transition-colors duration-300 flex items-center justify-center gap-2'>
+                   {hasLiveUrl ? (
+                     <a
+                       href={liveUrl}
+                       target='_blank'
+                       rel='noopener noreferrer'
+                       className='w-full sm:w-auto bg-primaryColor hover:bg-headingColor dark:bg-blue-600 dark:hover:bg-blue-700 text-white py-3 px-6 rounded-lg font-medium transition-colors duration-300 inline-flex items-center justify-center gap-2'
+                     >
                        <i className='ri-external-link-line'></i>
                        View Live Site
-                     </button>
-                   </a>
+                     </a>
+                   ) : (
+                     <span className='w-full sm:w-auto bg-gray-200 dark:bg-gray-700 text-gray-500 dark:text-gray-400 py-3 px-6 rounded-lg font-medium inline-flex items-center justify-center gap-2 cursor-not-allowed' aria-disabled='true'>
+                       Live site unavailable
+                     </span>
+                   )}
                  </div>
                </div>
              </div>

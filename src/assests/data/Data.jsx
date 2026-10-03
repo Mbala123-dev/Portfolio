@@ -27,7 +27,7 @@ const Data = [
         tech: "Html, CSS, JS, Tailwind css, Node",
         category: "webDesign",
         category: "UI",
-        URL: "#"
+        URL: ""
     },
     {
         id: "03",
@@ -37,7 +37,7 @@ const Data = [
         tech: "React, Express, Node.js",
         category: "webDesign",
         category: "UI",
-        URL: "#"
+        URL: ""
     },
     {
         id: "04",
@@ -47,7 +47,7 @@ const Data = [
         tech: "Html, CSS, JS",
         category: "webDesign",
         category: "UI",
-        URL: "#"
+        URL: ""
     },
 
  {
@@ -58,7 +58,7 @@ const Data = [
         tech: "React, Express, Node.js",
         category: "webDesign",
         category: "UI",
-        URL: "https://elsurraj.github.io/CS_WB_TimeTable-APP/#/home"
+        URL: ""
     },
 
 
@@ -69,7 +69,7 @@ const Data = [
         image: SecureSync,
         tech: "Html, CSS, JS",
         category: "webDesign",
-        URl: "https://mbala123-dev.github.io/Secure/"
+        URL: "https://mbala123-dev.github.io/Secure/"
     },
     
     {
@@ -79,7 +79,7 @@ const Data = [
         image: Cal,
         tech: "Html, CSS, JS",
         category: "webDesign",
-        URl: "#"
+        URL: ""
     },
     {
         id: "14",
@@ -88,7 +88,7 @@ const Data = [
         image: Clock,
         tech: "Html, CSS, JS",
         category: "webDesign",
-        URL: "#"
+        URL: ""
     },
 
 
@@ -99,7 +99,7 @@ const Data = [
         image: Board,
         tech: "Html, CSS, JS",
         category: "webDesign",
-        URl: "#"
+        URL: ""
     },
     
  
